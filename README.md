@@ -17,3 +17,17 @@ For more information, please see the [Python on App Service quickstart](https://
 ## Contributing
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+## Running Instructions
+
+Execute the following commands:
+
+```shell
+virtualenv env
+source env/bin/activate
+pip install -r requirements.txt
+export FLASK_APP=startup.py
+flask run
+```
+
+The server will serve at http://127.0.0.1:5000/
